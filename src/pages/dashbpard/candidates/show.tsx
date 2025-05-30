@@ -14,7 +14,7 @@ export const CandidateShow = () => {
       <Col xs={24} md={12} lg={18}>
         <Show isLoading={isLoading}>
           <Descriptions
-            bordered
+            // bordered
             column={2} // one item per row for better readability; adjust as needed
             size="middle"
             title="Candidate Details"
